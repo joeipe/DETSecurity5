@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DETSecurity5.Domain", "DETSecurity5.Domain\DETSecurity5.Domain.csproj", "{514BA983-61B1-4C23-BCCC-A07E2CDB6FBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedKernel", "SharedKernel", "{465147D8-D2D5-48BD-8AE2-4182B8EE3C2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedKernel", "SharedKernel\SharedKernel.csproj", "{D03636FB-A0DF-45A0-8EA0-C2F26534DD62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedKernel.Data", "SharedKernel.Data\SharedKernel.Data.csproj", "{9329C68E-35B1-4212-B633-9E76E377C688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DETSecurity5.Data", "DETSecurity5.Data\DETSecurity5.Data.csproj", "{E55A1765-5AB5-4811-A586-323D26C1B24B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DETSecurity5.Api.ViewModels", "DETSecurity5.Api.ViewModels\DETSecurity5.Api.ViewModels.csproj", "{F0ED5134-F3D5-437B-91BC-C51D1F8A784F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DETSecurity5.Api", "DETSecurity5.Api\DETSecurity5.Api.csproj", "{6027D963-A2C3-4226-961B-043FDEF6DF1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{514BA983-61B1-4C23-BCCC-A07E2CDB6FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{514BA983-61B1-4C23-BCCC-A07E2CDB6FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{514BA983-61B1-4C23-BCCC-A07E2CDB6FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{514BA983-61B1-4C23-BCCC-A07E2CDB6FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03636FB-A0DF-45A0-8EA0-C2F26534DD62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03636FB-A0DF-45A0-8EA0-C2F26534DD62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03636FB-A0DF-45A0-8EA0-C2F26534DD62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03636FB-A0DF-45A0-8EA0-C2F26534DD62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9329C68E-35B1-4212-B633-9E76E377C688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9329C68E-35B1-4212-B633-9E76E377C688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9329C68E-35B1-4212-B633-9E76E377C688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9329C68E-35B1-4212-B633-9E76E377C688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E55A1765-5AB5-4811-A586-323D26C1B24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55A1765-5AB5-4811-A586-323D26C1B24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55A1765-5AB5-4811-A586-323D26C1B24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55A1765-5AB5-4811-A586-323D26C1B24B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0ED5134-F3D5-437B-91BC-C51D1F8A784F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0ED5134-F3D5-437B-91BC-C51D1F8A784F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0ED5134-F3D5-437B-91BC-C51D1F8A784F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0ED5134-F3D5-437B-91BC-C51D1F8A784F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6027D963-A2C3-4226-961B-043FDEF6DF1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6027D963-A2C3-4226-961B-043FDEF6DF1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6027D963-A2C3-4226-961B-043FDEF6DF1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6027D963-A2C3-4226-961B-043FDEF6DF1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D03636FB-A0DF-45A0-8EA0-C2F26534DD62} = {465147D8-D2D5-48BD-8AE2-4182B8EE3C2A}
+		{9329C68E-35B1-4212-B633-9E76E377C688} = {465147D8-D2D5-48BD-8AE2-4182B8EE3C2A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92B0F9C5-E152-4D12-A71F-20F0C93C96BD}
+	EndGlobalSection
+EndGlobal
